@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Lucy';
+    src: url('fonts/Lucy.ttf') format(truetype); 
+    height: 100;
+    font-weight: normal;
+    font-style:normal;
+    }
+
+@font-face {
+        font-family: 'Love';
+        src: url('fonts/Filxgirl.TTF') format(truetype); 
+        height: 100;
+        font-weight: normal;
+        font-style:normal;
+    }
+
+body {
+    background-image: linear-gradient(to right, #FF8FDA, #DE76E8);
+}
+main {
+    background-color: #fdd0eeb6;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px #414249 ;
+    min-width: 280px;
+    max-width: 800px;
+    padding: 10px;
+    margin: auto;
+}
+
+video {
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Lucy';
+    font-size: 8em;
+    color:#B90208;
+    text-align: center;
+    text-shadow: 1px 1px 8px #1f1c1a;
+
+}
+
+h2 {
+    font-family: 'Love';
+    font-size: 4em;
+    color: #B90208;
+    text-align: center;
+    text-shadow: 1px 1px 2px #242322b4;
+}
+
+img {
+    width: 150px
+
+}
+
+h1 > picture {
+    display: none;
+}
+
+h1:hover > picture {
+    display: block;
+    text-align: center;
+}
+
+
+ /*div {
+    display:inline-block;
+    font-family: 'Love';
+    color: #d44329;
+    text-align: center;
+    font-size: 6em;
+    height: 100px;
+    width: 1600px;
+    text-shadow: 1px 1px 2px #242322b4;
+} */
+
