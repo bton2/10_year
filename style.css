@@ -18,11 +18,14 @@
 
 body {
     background-image: linear-gradient(to right, #FF8FDA, #DE76E8);
+    height: 90vh;
+    background:  url('imagens/romantic.png') center center no-repeat fixed;
+    background-size: cover;
 }
 main {
     background-color: #fdd0eeb6;
     border-radius: 20px;
-    box-shadow: 10px 10px 10px #414249 ;
+    box-shadow: 10px 10px 10px #41424983 ;
     min-width: 280px;
     max-width: 800px;
     padding: 10px;
@@ -36,9 +39,10 @@ video {
 h1 {
     font-family: 'Lucy';
     font-size: 8em;
-    color:#B90208;
+    color:  #B90208;
     text-align: center;
     text-shadow: 1px 1px 8px #1f1c1a;
+    text-decoration: dashed;
 
 }
 
@@ -65,14 +69,5 @@ h1:hover > picture {
 }
 
 
- /*div {
-    display:inline-block;
-    font-family: 'Love';
-    color: #d44329;
-    text-align: center;
-    font-size: 6em;
-    height: 100px;
-    width: 1600px;
-    text-shadow: 1px 1px 2px #242322b4;
-} */
+
 
